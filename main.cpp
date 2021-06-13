@@ -1,14 +1,11 @@
-﻿// Prog5.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
 #include <iostream>
 #include <stdio.h>
 #include <Windows.h>
 
 int main()
 {
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
 
     int guess = 50;
     char response = 0;
@@ -367,9 +364,8 @@ int main()
                     response = getchar();
                 }
                 else
-                  break;
+                break;
             }
-
         }
         }
         }
@@ -381,10 +377,9 @@ int main()
         }
         }
         }
-            printf("Еее. Я знал, что у меня получится.\n");
+        printf("Еее. Я знал, что у меня получится.\n");
         }
-
-	    return 0;
+	    
+	return 0;
     }
 }
- 
